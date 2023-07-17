@@ -1,0 +1,4 @@
+venv
+.idea
+input_imgs/*
+output_imgs/*
