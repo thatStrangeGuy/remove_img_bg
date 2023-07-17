@@ -20,7 +20,8 @@ def remove_bg():
         input_img = Image.open(input_path)
         output_img = remove(input_img)
         output_img.save(output_path)
-
+        input_img.close()
+        output_img.close()
         print(f'Completed: {index + 1}/{len(all_files)}')
 
 
